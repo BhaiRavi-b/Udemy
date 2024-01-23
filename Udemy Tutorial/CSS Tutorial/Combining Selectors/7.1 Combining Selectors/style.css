@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+/*Grouping*/
+
+
+h1,h2{
+    color: blueviolet;
+}
+
+
+/*Parent-Child
+    box represents the parent*/
+
+ .box >p{
+    color: firebrick;
+}
+
+/*Descendant*/
+
+ .box>li{
+    color: blue;
+ }
