@@ -1,9 +1,11 @@
-function bmiCalculator(weight, height) {
-  var weight = prompt("Enter Weight");
-  var height = prompt("Enter Height");
-  var bmi = weight / (height * height);
-  return Math.round(bmi);
-}
+prompt("waht is ypur name");
+prompt("what is their name");
 
-var bmi = bmiCalculator(weight, height);
-console.log(bmi);
+var lovescore = Math.random() * 100;
+lovescore = Math.floor(lovescore) + 1;
+
+if (lovescore > 70) {
+  alert("your love score is " + lovescore + " Get a room guys");
+} else {
+  alert("your love score is " + lovescore);
+}
