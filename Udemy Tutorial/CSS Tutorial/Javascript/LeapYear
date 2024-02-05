@@ -1,0 +1,17 @@
+function isLeap(year) {
+  /**************Don't change the code above****************/
+
+  //Write your code here.
+
+  if (year % 4 === 0 && year % 100 === 0 && year % 400 === 0) {
+    console.log("It is leap year");
+  } else {
+    console.log("It is not a leap year");
+  }
+}
+
+var userInput = prompt("Enter the year");
+var year = parseInt(userInput);
+console.log(isLeap(year));
+
+/**************Don't change the code below****************/
